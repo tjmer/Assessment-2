@@ -7,6 +7,7 @@ const reader = readline.createInterface({
 });
 
 console.log(`Welcome to the validator tool`)
+console.log(`(password should be at least 10 characters long)`)
 reader.question("Enter password to validate:", function(input){
     token = input.split('')
     if (token.length === 10){
