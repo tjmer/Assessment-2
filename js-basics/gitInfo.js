@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = `Git is a control system for your files`
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = `GitHub is a website/server for you files`
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init ={
+    description: `It creates a new repository`,
+    code: `git init`
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone = {
+    description: `it creates a copy of the repository`,
+    code: `git clone file`
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description: `gives you the status of code you are working on`,
+    code: `git status`
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description: `updates files to the index that you have made changes to`,
+    code: `get add`
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description: `creates a snapshot of the files tracked`,
+    code: `git commit`
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +90,7 @@
 */
 
 //CODE HERE
+let push = {
+    description: `pushed stuff to github`,
+    code: `git push file`
+}

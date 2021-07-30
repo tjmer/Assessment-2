@@ -16,9 +16,12 @@
 
 //CODE HERE
 
-
-
-
+let me = {
+  firstname: `Tyler`,
+  state: `Utah`,
+  age: 32,
+  greeter: `Hello! My name is Tyler and I live in Utah`
+}
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -45,3 +48,22 @@
 */
 
 //CODE HERE
+
+class carFactory{
+  constructor(make, model, year){
+    this.make = make;
+    this.model = model;
+    this.year = year;
+  }
+  isItNew(){
+    if(this.year > 2018){
+      this.isNew = true;
+    }else {
+      this.isItNew = false;
+    }
+  }
+}
+let newCar = new carFactory(`frodo`, `helmsdeep`, 2010)
+console.log(newCar)
+newCar.isItNew()
+console.log(newCar)
