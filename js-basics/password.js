@@ -1,4 +1,4 @@
-//got some code from the calculator assignment
+//borrowed some code from the calculator assignment
 const readline = require('readline');
 
 const reader = readline.createInterface({
@@ -9,8 +9,8 @@ const reader = readline.createInterface({
 console.log(`Welcome to the validator tool`)
 console.log(`(password should be at least 10 characters long)`)
 reader.question("Enter password to validate:", function(input){
-    token = input.split('')
-    if (token.length === 10){
+    password = input.split('')
+    if (password.length === 10){
         console.log(`Your password passes validation`)
     } else{
         console.log(`Your password will not work`)
